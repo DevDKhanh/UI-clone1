@@ -1,0 +1,27 @@
+.traffic {
+	background-color: var(--color-bg-1);
+	padding: 4rem 0;
+}
+
+.traffic-list {
+	display: grid;
+	gap: 1rem;
+	text-align: center;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.traffic-item__icon {
+	font-size: 3rem;
+}
+
+.traffic-item__title {
+	font-size: 1.5rem;
+	font-weight: 600;
+	color: var(--color-base-1);
+	padding: 0.5rem 0;
+}
+
+.traffic-item__text {
+	font-size: 1.3rem;
+	color: rgb(66, 66, 66);
+}

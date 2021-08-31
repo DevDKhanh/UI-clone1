@@ -1,0 +1,74 @@
+.team {
+	padding: 4rem 0;
+}
+
+.team-list {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+	text-align: center;
+}
+
+.team-card-content {
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	flex-direction: column;
+}
+
+.team-card-content__img {
+	border-radius: 0.5rem;
+	overflow: hidden;
+}
+
+.team-card-content__name {
+	padding: 0.5rem 0;
+	padding-top: 2rem;
+	font-size: 1.4rem;
+	color: var(--color-base-1);
+	font-weight: 600;
+}
+
+.team-card-content__position {
+	font-size: 1.2rem;
+	padding-bottom: 2rem;
+	font-style: oblique;
+	color: rgb(110, 110, 110);
+}
+
+.team-card-content__text {
+	font-size: 1.2rem;
+	margin-bottom: 2rem;
+	color: rgb(88, 87, 114);
+	display: -webkit-box;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	word-break: break-word;
+}
+
+.team-card-content__social {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-item a {
+	width: 50px;
+	height: 50px;
+	border-radius: 50%;
+	display: block;
+	font-size: 1.5rem;
+	margin: 0 0.5rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #fff;
+}
+
+.social-item a:hover {
+	opacity: 0.8;
+}

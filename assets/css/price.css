@@ -1,0 +1,62 @@
+.option-price {
+	padding: 4rem 0;
+}
+
+.price-list {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+}
+
+.price-card {
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	border-bottom: 4px solid rgb(165, 165, 165);
+	border-radius: 0.5rem;
+	padding: 2.5rem 2rem;
+	text-align: center;
+	transition: 0.3s;
+}
+
+.price-card:hover {
+	border-bottom: 4px solid var(--color-primary);
+}
+
+.price-card__classify {
+	font-size: 1.3rem;
+	font-weight: 600;
+	color: var(--color-base-1);
+	text-transform: uppercase;
+}
+
+.price-card__money {
+	font-size: 3.5rem;
+	font-weight: 600;
+	color: var(--color-base-1);
+	padding: 2rem 0;
+	padding-bottom: 1rem;
+}
+
+.price-card__time {
+	font-size: 1.2rem;
+	font-weight: 600;
+	color: rgb(110, 110, 110);
+	margin-bottom: 3rem;
+}
+
+.price-card__option {
+	font-size: 1.2rem;
+	text-align: left;
+	color: rgb(104, 104, 104);
+	line-height: 2rem;
+}
+
+.price-card__btn {
+	margin-top: 2rem;
+}
+
+.btn-buy {
+	padding: 1rem 2rem;
+	font-size: 1.2rem;
+	text-transform: uppercase;
+	font-weight: 600;
+}

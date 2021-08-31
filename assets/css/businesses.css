@@ -1,0 +1,24 @@
+.businesses {
+	background-color: var(--color-bg-1);
+	padding: 4rem 0;
+}
+
+.businesses-list {
+	display: grid;
+	gap: 2rem;
+	grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+
+.businesses-card {
+	background-color: #fff;
+	padding: 1rem;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+	border-radius: 0.5rem;
+	transition: 0.4s;
+}
+
+.businesses-card:hover {
+	cursor: default;
+	margin-top: -0.5rem;
+	margin-bottom: 0.5rem;
+}
