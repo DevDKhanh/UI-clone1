@@ -11,6 +11,11 @@ footer {
 	justify-content: space-between;
 }
 
+.footer-info {
+	display: flex;
+	align-items: center;
+}
+
 .footer-contact {
 	display: flex;
 	justify-content: center;
